@@ -4,10 +4,14 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '养成一个好习惯\n给生活一个小确幸\n',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    famouswords:[
+      "今天的习惯都已经打卡了，可把自己牛逼坏了！",
+      "养成一个好习惯，给生活一个小确幸。"
+    ]
   },
   //事件处理函数
   bindViewTap: function() {

@@ -6,16 +6,39 @@
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 160rpx;
+  height: 160rpx;
   margin: 20rpx;
   border-radius: 50%;
+  position: absolute;
+  border: 8rpx solid #018ffc;
+  top: 5rpx;
+  left: 0;
 }
 
 .userinfo-nickname {
-  color: #aaa;
-}
+  color: #fff;
+  text-align:right;
+  font-size: 24rpx;
+  padding: 20rpx 10rpx 0 0;
 
+}
+.usercard {
+  width: 80vw;
+  height:350rpx;
+  margin-top: 30rpx;
+  border-radius:20rpx;
+  background: #018ffc;
+}
+.famousword{
+  color: #fff;
+  padding-top:90rpx;
+  font-size: 32rpx;
+  width: 80%;
+  margin-left: 11%;
+
+
+}
 .usermotto {
   margin-top: 200px;
 }
