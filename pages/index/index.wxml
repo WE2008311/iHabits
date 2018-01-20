@@ -7,7 +7,7 @@
       
       <view class="usercard">
         <view class="userinfo-nickname">你好！{{userInfo.nickName}}</view>
-        <view class="famousword">{{famouswords[9]}}</view>
+        <view class="famousword">{{famouswords[1]}}</view>
       </view>
     </block>
 
